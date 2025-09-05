@@ -99,3 +99,15 @@ Você também pode executar via build script:
 ./build_full.sh dist --upload-backups /path/to/sa.json your_drive_folder_id
 ```
 
+
+
+---
+ADDITIONAL TOOLS ADDED
+- Windows PowerShell build script: scripts/build_windows.ps1
+- macOS build script: scripts/build_mac.sh
+- Release workflow for GitHub tags: .github/workflows/build-and-release.yml
+- Nightly backup workflow: .github/workflows/nightly-backup.yml
+- PWA stubs: pwa/manifest.json and pwa/service-worker.js
+- Backup encrypt script: scripts/backup_zip_encrypt.sh
+
+Run `pytest -q` to verify tests.

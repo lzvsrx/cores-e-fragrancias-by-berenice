@@ -1,0 +1,15 @@
+{
+  "name": "Cores e Fragr\u00e2ncias - PWA",
+  "short_name": "CoresFrags",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#F5D76E",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
