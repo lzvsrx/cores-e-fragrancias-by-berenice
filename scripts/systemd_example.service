@@ -1,0 +1,12 @@
+
+# Example systemd service (place as /etc/systemd/system/cores-backup.service)
+[Unit]
+Description=Daily backup service for cores_fragrancias
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /path/to/cores_fragrancias/scripts/daily_backup.py
+
+[Install]
+WantedBy=multi-user.target
